@@ -9,7 +9,7 @@
 ### Qualidade do modelo
 - [x] **Normalização das notas:** subtrair a média de cada usuário antes de calcular similaridade ajuda a reduzir viés de usuários mais “generosos” ou “severos”;
 - [x] **Filtragem baseada em similaridade ponderada:** em vez de apenas somar notas de filmes similares, multiplicar pelo grau de similaridade (já feito parcialmente) e normalizar pelo total de similaridades;
-- [ ] **Considerar apenas vizinhos mais próximos:** para cada filme/usuário, considerar apenas os top K vizinhos mais similares, evitando ruído de itens pouco relevantes.
+- [x] **Considerar apenas vizinhos mais próximos:** para cada filme/usuário, considerar apenas os top K vizinhos mais similares, evitando ruído de itens pouco relevantes.
 
 ### Melhor UX/Interpretação
 - [ ] **Exibir notas previstas + similaridade:** exibir no output uma ideia de por que aquele filme foi recomendado;
